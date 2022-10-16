@@ -1,0 +1,38 @@
+.title {
+    background-color: aquamarine;
+    text-align:center;
+    width: fit-content;
+    height:auto;
+    padding: 30px 70px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    }
+
+    ul {
+        list-style-type: none;
+        margin:0 auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+        text-align:center; 
+        flex-direction: row;
+         
+      }
+      
+     
+      
+      li {
+        display: block;
+        color: white;
+      
+        text-decoration: underline;
+        
+      }
+      
+      li:hover {
+        background-color: #111111;
+        cursor:pointer;
+        text-decoration: none;
+        
+      }
